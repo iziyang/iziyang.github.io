@@ -59,6 +59,7 @@ jobs:
           git config --global user.email $GIT_EMAIL
           cp _config.theme.yml themes/next/_config.yml
           cp _config.yml _config.yml
+          cp avatar.jpg source/uploads/avatar.jpg
 
       - name: Install dependencies
         run: |

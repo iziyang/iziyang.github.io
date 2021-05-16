@@ -31,11 +31,6 @@ jobs:
           ref: ${{ env.THEME_BRANCH }}
           path: ${{ env.THEME_PATH }}
 
-      - name: Checkout deploy repo
-        uses: actions/checkout@v2
-        with:
-          repository: ${{ env.DEPLOY_REPO }}
-          ref: ${{ env.DEPLOY_BRANCH }}
 
       - name: Use Node.js ${{ matrix.node_version }}
         uses: actions/setup-node@v1

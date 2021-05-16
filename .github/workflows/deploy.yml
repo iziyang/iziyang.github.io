@@ -36,6 +36,11 @@ jobs:
         uses: actions/setup-node@v1
         with:
           node-version: ${{ matrix.node_version }}
+          
+      - name: Setup Hexo Dependencies
+        run: |
+          npm install hexo-cli -g
+          npm install
 
       - name: Configuration environment
         env:
@@ -50,10 +55,6 @@ jobs:
           git config --global user.email $GIT_EMAIL
           cp _config.theme.yml themes/next/_config.yml
 
-      - name: Install dependencies
+      - name: Deploy Hexo 
         run: |
-          npm install
-
-      - name: Deploy hexo
-        run: |
-          npm run deploy
+          hexo g -d

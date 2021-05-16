@@ -41,6 +41,7 @@ jobs:
         run: |
           npm install hexo-cli -g
           npm install
+          npm install hexo-deployer-git --save
 
       - name: Configuration environment
         env:
@@ -57,4 +58,6 @@ jobs:
 
       - name: Deploy Hexo 
         run: |
-          hexo g -d
+          hexo clean
+          hexo generate 
+          hexo deploy

@@ -93,7 +93,7 @@ theme: next
 deploy:
   type: git
   repo: git@github.com:iziyang/iziyangtest.github.io.git
-  branch: master
+  branch: main
 
 leancloud_counter_security:
   enable_sync: true

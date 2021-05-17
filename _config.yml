@@ -1,4 +1,4 @@
-﻿# Hexo Configuration
+# Hexo Configuration
 ## Docs: https://hexo.io/docs/configuration.html
 ## Source: https://github.com/hexojs/hexo/
 
@@ -34,7 +34,7 @@ duoshuo_share: true
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://iziyangtest.github.io
+url: http://iziyang.github.io
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -92,7 +92,7 @@ theme: next
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: git@github.com:iziyang/iziyangtest.github.io.git
+  repo: git@github.com:iziyang/iziyang.github.io.git
   branch: master
 
 leancloud_counter_security:

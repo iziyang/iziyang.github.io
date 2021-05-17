@@ -1,0 +1,152 @@
+# Schemes
+#scheme: Muse
+#scheme: Mist
+scheme: Pisces
+#scheme: Gemini
+
+# Dark Mode
+darkmode: true
+
+menu:
+  home: / || fa fa-home
+  #about: /about/ || user
+  #categories: /categories/ || th
+  所有文章: /archives/ || fa fa-archive
+  标签: /tags/ || fa fa-tags
+  #schedule: /schedule/ || calendar
+  #sitemap: /sitemap.xml || sitemap
+  #commonweal: /404/ || heartbeat
+  SRE: /categories/SRE || fa fa-cloud
+  编程: /categories/编程 || fa fa-code
+  读书: /categories/读书 || fa fa-book
+  杂谈: /categories/杂谈 || fa fa-pencil-alt
+
+avatar:
+  # Replace the default image and set the url here.
+  url: https://s3plus.meituan.net/v1/mss_f32142e8d47149129e9550e929704625/yzz-test-image/qrcode_for_gh_3cfae3cf61d9_1280.jpg #/images/avatar.gif
+
+toc:
+  enable: true
+  # Automatically add list number to toc.
+  number: false
+  # If true, all words will placed on next lines if header width longer then sidebar width.
+  wrap: true
+  # If true, all level of TOC in a post will be displayed, rather than the activated part of it.
+  expand_all: true
+  # Maximum heading depth of generated toc.
+  max_depth: 6
+
+reading_progress:
+  enable: true
+  # Available values: top | bottom
+  position: top
+  color: "#37c6c0"
+  height: 3px
+
+font:
+  enable: true
+
+  # Uri of fonts host, e.g. https://fonts.googleapis.com (Default).
+  host: https://fonts.loli.net
+
+  # Font options:
+  # `external: true` will load this font family from `host` above.
+  # `family: Times New Roman`. Without any quotes.
+  # `size: x.x`. Use `em` as unit. Default: 1 (16px)
+
+  # Global font settings used for all elements inside <body>.
+  global:
+    external: true
+    family: Noto Serif SC
+    size:
+
+# Disable Baidu transformation on mobile devices.
+disable_baidu_transformation: true
+
+# If true, site-subtitle will be added to index page.
+# Remember to set up your site-subtitle in Hexo `_config.yml` (e.g. subtitle: Subtitle)
+index_with_subtitle: true
+
+# Automatically add external URL with Base64 encrypt & decrypt.
+exturl: true
+
+# Google Webmaster tools verification.
+# See: https://www.google.com/webmasters
+google_site_verification: 2k9N_1AINrpZtRVd2DTmGWusoSitSdkkRTBT7tORVAY
+
+# Bing Webmaster tools verification.
+# See: https://www.bing.com/webmaster
+bing_site_verification:
+
+# Yandex Webmaster tools verification.
+# See: https://webmaster.yandex.ru
+yandex_site_verification:
+
+# Baidu Webmaster tools verification.
+# See: https://ziyuan.baidu.com/site
+baidu_site_verification: IFiFMa7Cit
+
+# Enable baidu push so that the blog will push the url to baidu automatically which is very helpful for SEO.
+baidu_push: true
+
+math:
+  # Default (true) will load mathjax / katex script on demand.
+  # That is it only render those page which has `mathjax: true` in Front-matter.
+  # If you set it to false, it will load mathjax / katex srcipt EVERY PAGE.
+  per_page: true
+
+  # hexo-renderer-pandoc (or hexo-renderer-kramed) required for full MathJax support.
+  mathjax:
+    enable: true
+    # See: https://mhchem.github.io/MathJax-mhchem/
+    mhchem: true
+
+  # hexo-renderer-markdown-it-plus (or hexo-renderer-markdown-it with markdown-it-katex plugin) required for full Katex support.
+  katex:
+    enable: false
+    # See: https://github.com/KaTeX/KaTeX/tree/master/contrib/copy-tex
+    copy_tex: false
+
+# Easily enable fast Ajax navigation on your website.
+# Dependencies: https://github.com/theme-next/theme-next-pjax
+pjax: false
+
+# FancyBox is a tool that offers a nice and elegant way to add zooming functionality for images.
+# For more information: https://fancyapps.com/fancybox
+fancybox: true
+
+valine:
+  enable: true
+  appid: 6OsbpvAuMocftjPmQVE5FgOG-gzGzoHsz # Your leancloud application appid
+  appkey: Nzz2gSaPPFT179OKLQwrJB6v # Your leancloud application appkey
+  notify: false # Mail notifier
+  verify: false # Verification code
+  placeholder: 欢迎留言和我交流 # Comment box placeholder
+  avatar: mm # Gravatar style
+  guest_info: nick,mail,link # Custom comment header
+  pageSize: 10 # Pagination size
+  language: # Language, available values: en, zh-cn
+  visitor: true # Article reading statistic
+  comment_count: true # If false, comment count will only be displayed in post page, not in home page
+  recordIP: false # Whether to record the commenter IP
+  serverURLs: # When the custom domain name is enabled, fill it in here (it will be detected automatically by default, no need to fill in)
+  #post_meta_order: 0
+
+leancloud_visitors:
+  enable: true
+  app_id: 6OsbpvAuMocftjPmQVE5FgOG-gzGzoHsz # <your app id>
+  app_key: Nzz2gSaPPFT179OKLQwrJB6v # <your app key>
+  # Required for apps from CN region
+  server_url: https://iziyang.github.io # <your server url>
+  # Dependencies: https://github.com/theme-next/hexo-leancloud-counter-security
+  # If you don't care about security in leancloud counter and just want to use it directly
+  # (without hexo-leancloud-counter-security plugin), set `security` to `false`.
+  security: false
+
+motion:
+  enable: false
+
+wechat_subscriber:
+  enable: true
+  qcode: /uploads/avatar.jpg
+  description: 扫码关注回复“图谱”获取 20 套技能知识图谱

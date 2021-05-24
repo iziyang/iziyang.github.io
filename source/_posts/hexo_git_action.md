@@ -124,7 +124,7 @@ jobs:
 
 这里需要注意要修改几个变量：
 
-- ${{ secrets.DEPLOY_KEY }}：改成你自己部署的时候起的名字
+- `${{ secrets.DEPLOY_KEY }}`：改成你自己部署的时候起的名字
 - user_name: your github username 和 user_email: your github useremail：配置成你自己的名字和地址即可
 
 然后将这些项目 push 到博客即可。

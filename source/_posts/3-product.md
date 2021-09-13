@@ -10,7 +10,7 @@ description: 什么是解决方案，解决方案应该如何设计。
 
 先来看一下这一部分整体的思维导图。
 
-![](https://cdn.nlark.com/yuque/0/2021/png/1503654/1622512174956-71096e58-92b4-4d1c-8f03-c575e2a59f2d.png)
+![](https://s3plus.meituan.net/v1/mss_f32142e8d47149129e9550e929704625/yzz-test-image/20210913092142)
 
 # 解决方案的设计与积累
 

@@ -16,12 +16,12 @@ description: 如何做产品规划？
 
 任何一个层面都应该学会做规划，并应该把规划做好
 
-![](https://s3plus.meituan.net/v1/mss_f32142e8d47149129e9550e929704625/yzz-test-image/20211220090719)
+![](https://s3plus.meituan.net/v1/mss_f32142e8d47149129e9550e929704625/yzz-test-image/20211220095322)
 
 1. 把大象放进冰箱是目标
 2. 从顶层推演出如何做这件事情就是产品规划
 
-![](https://s3plus.meituan.net/v1/mss_f32142e8d47149129e9550e929704625/yzz-test-image/20211220090731)
+![](https://s3plus.meituan.net/v1/mss_f32142e8d47149129e9550e929704625/yzz-test-image/20211220095322)
 
 1. 要先知道我们的目标是什么
 2. 我们拥有哪些资源，数据、事实、预判是什么，只有数据才知道目前我们处于什么位置
@@ -29,7 +29,7 @@ description: 如何做产品规划？
 4. 分析和推理是讲给别人，别人可以信服的，不会有异议，测试和赌的时候是基于一些假设，做一些判断和规划
 5. 从来不会期望一个产品规划是稳定的，一定是要经常改的
 
-![](https://s3plus.meituan.net/v1/mss_f32142e8d47149129e9550e929704625/yzz-test-image/20211220090815)
+![](https://s3plus.meituan.net/v1/mss_f32142e8d47149129e9550e929704625/yzz-test-image/20211220095323)
 
 最初的抽奖助手是一个工具
 
@@ -42,19 +42,19 @@ description: 如何做产品规划？
 
 单纯的工具向平台型产品转型或者商业型产品转型
 
-![](https://s3plus.meituan.net/v1/mss_f32142e8d47149129e9550e929704625/yzz-test-image/20211220090834)
+![](https://s3plus.meituan.net/v1/mss_f32142e8d47149129e9550e929704625/yzz-test-image/20211220095323)
 
 不是。产品规划是所有人的责任。
 
 自上而下拆解，自下而上的反馈
 
-![](https://s3plus.meituan.net/v1/mss_f32142e8d47149129e9550e929704625/yzz-test-image/20211220090850)
+![](https://s3plus.meituan.net/v1/mss_f32142e8d47149129e9550e929704625/yzz-test-image/20211220095323)
 
 功能层和战略层做功能的逻辑都是一样的，都是一个拆解的过程
 
-![](https://s3plus.meituan.net/v1/mss_f32142e8d47149129e9550e929704625/yzz-test-image/20211220090859)
+![](https://s3plus.meituan.net/v1/mss_f32142e8d47149129e9550e929704625/yzz-test-image/20211220095323)
 
-![img](https://cdn.nlark.com/yuque/0/2021/png/1503654/1633507229502-b8f2d1d7-b6be-45d5-a73a-60b99cc9d210.png)
+![](https://s3plus.meituan.net/v1/mss_f32142e8d47149129e9550e929704625/yzz-test-image/20211220095324)
 
 # 产品规划的实施步骤
 
@@ -68,9 +68,9 @@ description: 如何做产品规划？
 
 5. 确定优先级，与其他合作部⻔⼀同规划实施步骤
 
-![](https://s3plus.meituan.net/v1/mss_f32142e8d47149129e9550e929704625/yzz-test-image/20211220090943)
+![](https://s3plus.meituan.net/v1/mss_f32142e8d47149129e9550e929704625/yzz-test-image/20211220095324)
 
-![](https://s3plus.meituan.net/v1/mss_f32142e8d47149129e9550e929704625/yzz-test-image/20211220090951)
+![](https://s3plus.meituan.net/v1/mss_f32142e8d47149129e9550e929704625/yzz-test-image/20211220095324)
 
 # 产品规划的产出物是什么？
 
@@ -79,11 +79,11 @@ description: 如何做产品规划？
 
 - 产品功能路线图（roadmap）
 
-![img](https://cdn.nlark.com/yuque/0/2021/png/1503654/1633508944075-656367be-0f4a-4d0c-857f-4f15236a1605.png)
+![](https://s3plus.meituan.net/v1/mss_f32142e8d47149129e9550e929704625/yzz-test-image/20211220095324)
 
-![img](https://cdn.nlark.com/yuque/0/2021/png/1503654/1633509138287-973ec468-11f5-42eb-beee-8aa1746e05a1.png)
+![](https://s3plus.meituan.net/v1/mss_f32142e8d47149129e9550e929704625/yzz-test-image/20211220095324)
 
-![](https://s3plus.meituan.net/v1/mss_f32142e8d47149129e9550e929704625/yzz-test-image/20211220091020)
+![](https://s3plus.meituan.net/v1/mss_f32142e8d47149129e9550e929704625/yzz-test-image/20211220095325)
 
 # 现实中产品规划的⼀些经验⼼得
 

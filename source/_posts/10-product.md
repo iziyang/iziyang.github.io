@@ -18,7 +18,7 @@ description: 运营是做什么的？
 
 # 运营是做什么的
 
-![](https://cdn.nlark.com/yuque/0/2021/png/1503654/1635466240253-b10e6e3a-f36e-4744-aa3d-c4526790015e.png)
+![](https://s3plus.meituan.net/v1/mss_f32142e8d47149129e9550e929704625/yzz-test-image/20211220100749)
 
 - 库克就是 COO
 - 一个公司的运转就是运营
@@ -31,45 +31,45 @@ description: 运营是做什么的？
 
 # 运营工作的抽象套路方法
 
-![](https://cdn.nlark.com/yuque/0/2021/png/1503654/1635466641489-7e6bd875-0d8b-4a91-941b-ab1b0bf89382.png)
+![](https://s3plus.meituan.net/v1/mss_f32142e8d47149129e9550e929704625/yzz-test-image/20211220100749)
 
 - 运营手里是有资源的
 - 运营一定会撬动这些资源去执行
 
-![](https://cdn.nlark.com/yuque/0/2021/png/1503654/1635466813940-9667fc1a-3594-4aa3-8f01-9c523611bd02.png)
+![](https://s3plus.meituan.net/v1/mss_f32142e8d47149129e9550e929704625/yzz-test-image/20211220100749)
 
 - 运营在循环的工作
 - 产品很少有循环工作
 
 - 微操
 
-![](https://cdn.nlark.com/yuque/0/2021/png/1503654/1635466848431-b884e09b-828b-43e9-8f01-53024830b81f.png)
+![](https://s3plus.meituan.net/v1/mss_f32142e8d47149129e9550e929704625/yzz-test-image/20211220100749)
 
-![](https://cdn.nlark.com/yuque/0/2021/png/1503654/1635468241675-63a2079d-1180-4fad-83d5-7032c525bb09.png)
+![](https://s3plus.meituan.net/v1/mss_f32142e8d47149129e9550e929704625/yzz-test-image/20211220100749)
 
-![](https://cdn.nlark.com/yuque/0/2021/png/1503654/1635468475440-1988f853-37f7-482c-a5cc-a39c8c77c15c.png)
+![](https://s3plus.meituan.net/v1/mss_f32142e8d47149129e9550e929704625/yzz-test-image/20211220100749)
 
 - 从整个公司的运营目标出发，所有的团队都是运营的一环，包括产品
 
-![](https://cdn.nlark.com/yuque/0/2021/png/1503654/1635468527239-f1fe6331-d82a-4f62-92a2-a2d2e2527201.png)
+![](https://s3plus.meituan.net/v1/mss_f32142e8d47149129e9550e929704625/yzz-test-image/20211220100749)
 
 - 运营负责制定运营规则，产品负责把运营规则产品化
 
-![](https://cdn.nlark.com/yuque/0/2021/png/1503654/1635469549933-ebb957d2-19bd-4c33-be47-1f6c365350a8.png)
+![](https://s3plus.meituan.net/v1/mss_f32142e8d47149129e9550e929704625/yzz-test-image/20211220100749)
 
 # 用户运营
 
-![](https://cdn.nlark.com/yuque/0/2021/png/1503654/1635469225363-835d2c90-f22a-47e1-9f42-7a5112fd6b16.png)
+![](https://s3plus.meituan.net/v1/mss_f32142e8d47149129e9550e929704625/yzz-test-image/20211220100749)
 
-![](https://cdn.nlark.com/yuque/0/2021/png/1503654/1635469463407-26b2f1cc-6fdb-46db-9fdf-2a9d5ba402f1.png)
+![](https://s3plus.meituan.net/v1/mss_f32142e8d47149129e9550e929704625/yzz-test-image/20211220100801)
 
-![](https://cdn.nlark.com/yuque/0/2021/png/1503654/1635469725304-0d390b07-a7e0-4482-9f13-a8f855fea755.png)
+![](https://s3plus.meituan.net/v1/mss_f32142e8d47149129e9550e929704625/yzz-test-image/20211220100835)
 
-![](https://cdn.nlark.com/yuque/0/2021/png/1503654/1635553222285-1a0d754f-00f8-442d-a06e-74f75776c790.png)
+![](https://s3plus.meituan.net/v1/mss_f32142e8d47149129e9550e929704625/yzz-test-image/20211220100815)
 
 - 做工具、做产品，把运营规则做成一个可以用的运营产品
 
-![](https://cdn.nlark.com/yuque/0/2021/png/1503654/1635553333230-a4a6ff68-44cd-46b4-8397-73d9fbd6ebd2.png)
+![](https://s3plus.meituan.net/v1/mss_f32142e8d47149129e9550e929704625/yzz-test-image/20211220100826)
 
 - 不会做吸引用户的事情
 

@@ -1,10 +1,12 @@
 ---
 title: 「富爸爸穷爸爸」教了我们什么
 tags: 产品经理
-categories: 杂谈
+categories: 读书
 date: 2021-11-23 08:15:33
 description: 穷人和富人的差别在于思维。
 ---
+
+<img src="https://s3plus.meituan.net/v1/mss_f32142e8d47149129e9550e929704625/yzz-test-image/bdd04d11a845404bb3f55e3ee08870ba" style="zoom:50%;" />
 
 最近重读了富爸爸穷爸爸这本书，有了一些新的感悟，跟大家分享一下。
 

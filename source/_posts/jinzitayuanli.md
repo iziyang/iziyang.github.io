@@ -1,7 +1,7 @@
 ---
 title: 金字塔原理是什么
 tags: 产品经理
-categories: 杂谈
+categories: 读书
 date: 2022-02-11 07:52:53
 description: 金字塔原理是一套思考、表达和解决问题的逻辑。
 ---

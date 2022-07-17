@@ -50,7 +50,7 @@ description: 一幅抗击侵略者的历史画卷。
 
 ![](https://s3plus.meituan.net/v1/mss_f32142e8d47149129e9550e929704625/yzz-test-image/f3e112b923f147628eddef5aa7da11db)
 
-# 隋唐明清
+# 隋唐
 
 这一时期，深圳最重要的特征就是海洋经济，随着广州海外贸易的兴盛，深圳成为了粤海门户，广州海外交通的外港。
 
@@ -98,7 +98,7 @@ description: 一幅抗击侵略者的历史画卷。
 
 九龙海战是中英鸦片战争的前哨站。道光皇帝派林则徐虎门硝烟之后，林则徐禁止向英国人提供水和食物。1839 年 9 月 4 日，英国军舰向中国水师购买食物和水被拒绝后，英军悍然炮轰清军水师船和九龙炮台。赖恩爵率军还击，最后以少胜多，赢得胜利。
 
-![](/Users/howardyuan/Pictures/Photos Library.photoslibrary/resources/derivatives/8/8EC3DE78-7CDD-4122-B9F5-DB247153D1CF_1_105_c.jpeg)
+![](https://s3plus.meituan.net/v1/mss_f32142e8d47149129e9550e929704625/yzz-test-image/69df7fc62d0d40fa8e033cfbb05455b4)
 
 赖恩爵家族世居大鹏，三代出了五位将军，史称三代五将。
 

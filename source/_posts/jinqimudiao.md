@@ -1,6 +1,6 @@
 ---
 title: 让人叹为观止的金漆木雕
-tags: 产品经理
+tags: 文化
 categories: 杂谈
 date: 2022-07-17 17:14:06
 description: 中国工匠、中国文化、中国传承。

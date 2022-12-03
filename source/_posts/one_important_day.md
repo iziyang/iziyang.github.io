@@ -6,6 +6,8 @@ date: 2022-12-03 20:10:35
 description: 有勇气的人，给普通人带来了光明。
 ---
 
+![](https://s3plus.meituan.net/v1/mss_f32142e8d47149129e9550e929704625/yzz-test-image/c5f3635534734836af74c4684f31913f)
+
 今天，深圳卫健委发出通知，进入公共场所不再查验核酸证明，仅需要健康码绿码即可。
 
 ![](https://s3plus.meituan.net/v1/mss_f32142e8d47149129e9550e929704625/yzz-test-image/a22454147aeb4b23b102e7a41ee4c53c)

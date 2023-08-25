@@ -1,5 +1,5 @@
 #!/bin/bash
-file_name=./source/_posts/$1.md
+file_name=./source/_drafts/$1.md
 
 echo "---" >> $file_name
 echo "title:" >> $file_name

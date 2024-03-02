@@ -3,7 +3,7 @@ title: IT 技术的拦路虎
 tags: 
 categories: 杂谈
 date: 2023-12-13 23:32:35
-description:
+description: 如何学习 K8s。
 ---
 
 ![](https://s3plus.meituan.net/v1/mss_f32142e8d47149129e9550e929704625/yzz-test-image/6656eff7cadb4f53b0395e46ed67a7af)

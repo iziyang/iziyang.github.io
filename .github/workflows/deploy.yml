@@ -7,6 +7,11 @@ jobs:
     runs-on: ubuntu-latest
     name: A job to deploy blog.
     steps:
+    - name: Use Node.js 20
+      uses: actions/setup-node@v2
+      with:
+        node-version: 20
+
     - name: Checkout
       uses: actions/checkout@v1
       with:
@@ -14,7 +19,7 @@ jobs:
 
     # Caching dependencies to speed up workflows. (GitHub will remove any cache entries that have not been accessed in over 7 days.)
     - name: Cache node modules
-      uses: actions/cache@v1
+      uses: actions/cache@v3
       id: cache
       with:
         path: node_modules

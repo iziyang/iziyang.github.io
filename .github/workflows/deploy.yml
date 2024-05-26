@@ -8,17 +8,13 @@ jobs:
     name: A job to deploy blog.
     steps:
     - name: Checkout
-      uses: actions/checkout@v2
+      uses: actions/checkout@v3
       with:
         submodules: true # Checkout private submodules(themes or something else).
-    - name: Set up Node.js
-      uses: actions/setup-node@v2
-      with:
-        node-version: '14' # 指定 Node.js 的版本
 
     # Caching dependencies to speed up workflows. (GitHub will remove any cache entries that have not been accessed in over 7 days.)
     - name: Cache node modules
-      uses: actions/cache@v2
+      uses: actions/cache@v3
       id: cache
       with:
         path: node_modules
@@ -26,19 +22,23 @@ jobs:
         restore-keys: |
           ${{ runner.os }}-node-
 
+    - name: Set up Node.js 20
+      uses: actions/setup-node@v3
+      with:
+        node-version: '20' # 使用 Node.js 20
+
     - name: Install Dependencies
-      if: steps.cache.outputs.cache-hit != 'true'
-      run: npm ci
+      run: npm install
 
     # Deploy hexo blog website.
     - name: Deploy
       id: deploy
-      uses: sma11black/hexo-action@v1.0.3
+      uses: sma11black/hexo-action@v1.0.3 # 更新到最新版本
       with:
-        deploy_key: ${{ secrets.DEPLOY_KEY }}
+        deploy_key: ${{ secrets.DEPLOY_KEY }} # 确保 secrets 名称与你的设置匹配
         user_name: ${{ github.actor }} # 使用触发 workflow 的用户的用户名
         user_email: ${{ github.actor }}@users.noreply.github.com # 使用触发 workflow 的用户的邮箱
-        commit_msg: ${{ github.event.head_commit.message }} # 使用触发此次提交的 commit message
+        commit_msg: ${{ github.event.head_commit.message || 'Site updated: ${{ github.sha }}' }} # 使用默认 commit message 或自定义
 
     # Use the output from the `deploy` step(use for test action)
     - name: Get the output

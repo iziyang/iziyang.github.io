@@ -7,11 +7,6 @@ jobs:
     runs-on: ubuntu-latest
     name: A job to deploy blog.
     steps:
-    - name: Use Node.js 20
-      uses: actions/setup-node@v2
-      with:
-        node-version: 20
-
     - name: Checkout
       uses: actions/checkout@v1
       with:
@@ -19,7 +14,7 @@ jobs:
 
     # Caching dependencies to speed up workflows. (GitHub will remove any cache entries that have not been accessed in over 7 days.)
     - name: Cache node modules
-      uses: actions/cache@v3
+      uses: actions/cache@v1
       id: cache
       with:
         path: node_modules
@@ -33,7 +28,7 @@ jobs:
     # Deploy hexo blog website.
     - name: Deploy
       id: deploy
-      uses: sma11black/hexo-action@v1.0.0
+      uses: sma11black/hexo-action@v1.0.3
       with:
         deploy_key: ${{ secrets.HEXO_DEPLOY_PRI }}
         user_name: ziyang

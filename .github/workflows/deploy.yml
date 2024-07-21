@@ -1,44 +1,50 @@
-name: Deploy
+name: Pages
 
-on: [push]
+on:
+  push:
+    branches:
+      - main # default branch
 
 jobs:
   build:
     runs-on: ubuntu-latest
-    name: A job to deploy blog.
     steps:
-    - name: Checkout
-      uses: actions/checkout@v3
-      with:
-        submodules: true # Checkout private submodules(themes or something else).
-
-    - name: Set up Node.js 20
-      uses: actions/setup-node@v3
-      with:
-        node-version: '20' # 指定 Node.js 版本为 20
-
-    # Caching dependencies to speed up workflows.
-    - name: Cache node modules
-      uses: actions/cache@v3
-      id: cache
-      with:
-        path: node_modules
-        key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
-        restore-keys: |
-          ${{ runner.os }}-node-
-
-    - name: Install Dependencies
-      run: npm install
-
-    - name: Deploy
-      id: deploy
-      uses: sma11black/hexo-action@v1.0.3
-      with:
-        deploy_key: ${{ secrets.HEXO_DEPLOY_PRI }} # 使用您设置的 secrets 名称
-        user_name: ziyang # 保留原有的用户名
-        user_email: iyuanzz@qq.com # 保留原有的用户邮箱
-        commit_msg: ${{ github.event.head_commit.message }} # 保留原有的 commit message
-
-    - name: Get the output
-      run: |
-        echo "${{ steps.deploy.outputs.notify }}"
+      - uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          # If your repository depends on submodule, please see: https://github.com/actions/checkout
+          submodules: recursive
+      - name: Use Node.js 18
+        uses: actions/setup-node@v4
+        with:
+          # Examples: 20, 18.19, >=16.20.2, lts/Iron, lts/Hydrogen, *, latest, current, node
+          # Ref: https://github.com/actions/setup-node#supported-version-syntax
+          node-version: "18"
+      - name: Cache NPM dependencies
+        uses: actions/cache@v4
+        with:
+          path: node_modules
+          key: ${{ runner.OS }}-npm-cache
+          restore-keys: |
+            ${{ runner.OS }}-npm-cache
+      - name: Install Dependencies
+        run: npm install
+      - name: Build
+        run: npm run build
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: ./public
+  deploy:
+    needs: build
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

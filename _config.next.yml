@@ -8,18 +8,18 @@ scheme: Pisces
 darkmode: true
 
 menu:
-  home: /blog/ || fa fa-home
-  #about: /blog/about/ || user
-  #categories: /blog/categories/ || th
-  所有文章: /blog/archives/ || fa fa-archive
-  标签: /blog/tags/ || fa fa-tags
-  #schedule: /blog/schedule/ || calendar
-  #sitemap: /blog/sitemap.xml || sitemap
+  home: / || fa fa-home
+  #about: /about/ || user
+  #categories: /categories/ || th
+  所有文章: /archives/ || fa fa-archive
+  标签: /tags/ || fa fa-tags
+  #schedule: /schedule/ || calendar
+  #sitemap: /sitemap.xml || sitemap
   #commonweal: /404/ || heartbeat
-  SRE: /blog/categories/SRE || fa fa-cloud
-  编程: /blog/categories/编程 || fa fa-code
-  读书: /blog/categories/读书 || fa fa-book
-  杂谈: /blog/categories/杂谈 || fa fa-pencil-alt
+  SRE: /categories/SRE || fa fa-cloud
+  编程: /categories/编程 || fa fa-code
+  读书: /categories/读书 || fa fa-book
+  杂谈: /categories/杂谈 || fa fa-pencil-alt
 
 avatar:
   # Replace the default image and set the url here.

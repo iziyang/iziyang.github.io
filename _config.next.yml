@@ -137,7 +137,7 @@ leancloud_visitors:
   app_id: 6OsbpvAuMocftjPmQVE5FgOG-gzGzoHsz # <your app id>
   app_key: Nzz2gSaPPFT179OKLQwrJB6v # <your app key>
   # Required for apps from CN region
-  server_url: https://iziyang.github.io # <your server url>
+  server_url: https://iziyang.github.io/blog # <your server url>
   # Dependencies: https://github.com/theme-next/hexo-leancloud-counter-security
   # If you don't care about security in leancloud counter and just want to use it directly
   # (without hexo-leancloud-counter-security plugin), set `security` to `false`.
